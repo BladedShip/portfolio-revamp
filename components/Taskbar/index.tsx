@@ -9,7 +9,7 @@ const TaskBar = (props: Props) => {
       <div className="w-full p-2">Open Windows</div>
       <div className="p-2 bg-[#1285DF] flex min-w-[6vw] items-center gap-4">
         <div className="w-[20px] h-[20px] relative">
-          <Image src="/icons/202.ico" fill alt="Help Image" />
+          <Image src="/icons/help.ico" fill alt="Help Image" />
         </div>
         <button className="text-white">
           {new Date().toLocaleTimeString([], {
